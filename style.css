@@ -1,0 +1,151 @@
+[data-testid="stHeader"] {
+    background: rgba(0,0,0,0);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    height: 11rem;
+    box-shadow: rgb(0 0 0 / 20%) 0px 2px 1px -1px;
+}
+
+[data-testid="stAppViewBlockContainer"],
+.st-emotion-cache-13ln4jf{
+    width: 100%;
+    padding: 12rem 1rem 2rem;
+    max-width: 70rem;
+}
+
+.st-emotion-cache-1jmvea6  {
+    font-family: "Source Sans Pro", sans-serif;
+    background-color: '#D1DBE5';
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    padding: 1px 5px;
+    font-size: 16px;
+    gap: 0.5rem;
+    margin-bottom: 0;
+}
+
+[data-baseweb="tab"]  {
+    margin-bottom: 0;
+    font-size: 16px;
+    background: #D4E3E4;
+    border-radius: 5px 5px 0 0;
+    padding: 0 10px;
+    height: 2rem;
+}
+
+:focus[data-baseweb="tab"] {
+    margin-bottom: 0;
+    font-size: 16px;
+    background: #b1c2c4;
+    border-radius: 5px 5px 0 0;
+    padding: 0 10px;
+    height: 2rem;
+}
+
+
+div[data-testid="stMetric"], div[data-testid="metric-container"] {
+    box-shadow: 0 4px 8px rgba(34, 30, 30, 0.644); /* Add shadow for depth */
+    border-radius: 5px;
+    margin-bottom: 0;
+    margin-top: 0; 
+    padding-top: 1px;  
+}
+
+[data-testid="stMetricValue"] {
+    font: 1.5rem sans-serif;
+}
+
+label[data-testid="stMetricLabel"]  div[data-testid="stMarkdownContainer"] > p {
+     font-size: 18px; 
+}
+
+div[data-testid="stMarkdownContainer"] > p {
+    font-size: 16px; 
+}
+
+/*[data-testid="stVerticalBlock"] > div[data-testid="stVerticalBlockBorderWrapper"] {
+    border: 1px solid rgba(49, 51, 63, 0.2);
+    border-radius: 0.5rem;
+    padding: calc(-0.5px + 0.5rem);
+    background: rgb(194 208 210);
+}*/
+
+.plot-container.plotly > div.svg-container > svg.main-svg {
+    border-radius: 10px
+}
+
+[data-testid="stVerticalBlock"] > div[data-testid="stVerticalBlockBorderWrapper"] {
+    border: 1px solid rgb(243 247 249);
+    border-radius: 0.5rem;
+    padding: 10px;
+    background: rgb(243 247 249);
+}
+
+
+/* Table CSS Style  #rgba(194,208,210, 1)*/
+table {    
+    border-spacing: 0.2;
+    border-collapse: separate;    
+    font-size: 0.9rem;    
+    letter-spacing: 1px;           
+}
+
+tbody {
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+th {      
+    background-color: rgba(195,215,220, 0.7);
+    font-size: 14px;             
+    color:  #131411f3; 
+}
+
+th:first-child  {
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 10px;
+}
+
+th:first-child{
+    background-color:  #1f251700; 
+    border: none;
+}
+
+th:nth-child(2) {
+    border-top-left-radius: 5px;
+}
+
+
+th:last-child {
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+tbody tr > :first-child {
+    background-color: rgba(195,215,220, 0.7);
+    border-bottom-left-radius: 50px;
+    border-top-left-radius: 50px;
+}
+
+tbody > tr > :last-child,
+#tbody > tr:last-child  {
+    background-color: rgba(195,215,220, 0.7);    
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px
+} 
+
+th, td {
+    text-align: right;    
+    padding: 0px;
+    width: 50px;
+}
+
+td{
+    cursor: pointer;
+}
+  
+tr:hover{
+    td{
+      background-color: rgba(195,215,220, 0.5);
+      border: 1px rgba(10, 10, 10, 0.719) dashed;
+}
+}
+
