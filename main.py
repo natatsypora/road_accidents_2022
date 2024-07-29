@@ -77,6 +77,6 @@ with st.sidebar:
     st.divider()
     # Display the GitHub-Logo with a hyperlink
     st.markdown("""
-                <p style="text-align: center;">Made with love by Natalia</p>""" 
+                <p style="text-align: center;">Made with 🤍 by Natalia</p>""" 
                 , unsafe_allow_html=True)
 
