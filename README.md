@@ -20,7 +20,7 @@ The analysis includes data visualization and summary of accidents by location, t
 
 ## Data
 
-The data used in this analysis is obtained from the [The Government database ](https://data.gov.il/dataset/teunot2022)
+The data used in this analysis is obtained from [The Government database ](https://data.gov.il/dataset/teunot2022)
 
 
 ## View 
