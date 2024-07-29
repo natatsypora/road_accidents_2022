@@ -3,7 +3,6 @@ import streamlit as st
 from streamlit_extras.add_vertical_space import add_vertical_space as avs
 
 
-
 # Define All Pages
 p1 = st.Page("pages/page_1.py", title="Overview", icon=":material/directions_car:", default=True)
 p2 = st.Page("pages/page_2.py", title="Data", icon=":material/dataset:")
@@ -69,13 +68,12 @@ with st.sidebar.expander("**Data Sources**"):
 
 with st.sidebar.expander("**Other sources**"):
     st.markdown("Data visualization using the [Plotly](https://plotly.com/python/)")
-    st.markdown("Creating Maps using the [Folium](https://python-visualization.github.io/folium/latest/)")
+    st.markdown("Creating Map using the [Folium](https://python-visualization.github.io/folium/latest/)")
 
 with st.sidebar:
     # Adds 5 vertical spaces
     avs(15)
-    st.divider()
-    # Display the GitHub-Logo with a hyperlink
+    st.divider()    
     st.markdown("""
                 <p style="text-align: center;">Made with 🤍 by Natalia</p>""" 
                 , unsafe_allow_html=True)
