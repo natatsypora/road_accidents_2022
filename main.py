@@ -76,12 +76,7 @@ with st.sidebar:
     avs(15)
     st.divider()
     # Display the GitHub-Logo with a hyperlink
-    st.markdown(
-        """
-        <p style="text-align: center;">Made with love by Natalia</p>
-        <a href="https://github.com/natatsypora" style="display: flex; justify-content: center; align-items: center;">
-        <img src="data:image/png;base64,{}" width="50" alt="GitHub Logo">
-        </a>""" .format(base64.b64encode(open("images\GitHub-Logo.png", "rb"
-                                              ).read()).decode()
-                ), unsafe_allow_html=True)
+    st.markdown("""
+                <p style="text-align: center;">Made with love by Natalia</p>""" 
+                , unsafe_allow_html=True)
 
