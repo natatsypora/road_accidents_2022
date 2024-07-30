@@ -55,26 +55,24 @@ with st.sidebar.expander("**Data Sources**"):
             <img src="data:image/png;base64,{}" width="150">
     </a>""".format(
         base64.b64encode(open("images/GOV_LOGO.png", "rb").read()).decode()
-    ),
-        unsafe_allow_html=True) 
-    st.write('')     
+    ), unsafe_allow_html=True) 
+    st.write('')   
+
     st.markdown(
     """<a href="https://www.cbs.gov.il/he/publications/Pages/2024/%D7%AA%D7%90%D7%95%D7%A0%D7%95%D7%AA-%D7%93%D7%A8%D7%9B%D7%99%D7%9D-%D7%A2%D7%9D-%D7%A0%D7%A4%D7%92%D7%A2%D7%99%D7%9D-2022-%D7%A1%D7%99%D7%9B%D7%95%D7%9E%D7%99%D7%9D-%D7%9B%D7%9C%D7%9C%D7%99%D7%99%D7%9D.aspx">
     <img src="data:image/png;base64,{}" width="200">
     </a>""".format(
         base64.b64encode(open("images/CBS_LOGO2.png", "rb").read()).decode()
-    ),unsafe_allow_html=True)
+    ), unsafe_allow_html=True)
     st.write('')
 
 with st.sidebar.expander("**Other sources**"):
     st.markdown("Data visualization using the [Plotly](https://plotly.com/python/)")
     st.markdown("Creating Map using the [Folium](https://python-visualization.github.io/folium/latest/)")
 
-with st.sidebar:
-    # Adds 5 vertical spaces
-    avs(15)
-    st.divider()    
+with st.sidebar:    
+    avs(15)         # add 15 vertical spaces
+    st.divider()    # add a horizontal line  
     st.markdown("""
                 <p style="text-align: center;">Made with 🤍 by Natalia</p>""" 
                 , unsafe_allow_html=True)
-
