@@ -66,7 +66,7 @@ with st.sidebar.expander("**Data Sources**"):
     ), unsafe_allow_html=True)
     st.write('')
 
-with st.sidebar.expander("**Other sources**"):
+with st.sidebar.expander("**Other Sources**"):
     st.markdown("Data visualization using the [Plotly](https://plotly.com/python/)")
     st.markdown("Creating Map using the [Folium](https://python-visualization.github.io/folium/latest/)")
 
